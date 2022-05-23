@@ -1,0 +1,53 @@
+body{
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#fondo{
+    height: 100%;
+    width: 100%;
+<<<<<<< HEAD
+    position: absolute;
+}
+
+#mesa{
+    background-color: rgb(198, 192, 172);
+    height: 400px;
+    width: 800px;
+    position: relative;
+    margin-left: -40%;
+    border-radius: 10%;
+}
+
+#esmeralda{
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    border-radius: 60%;
+
+    animation-name: esmeralda;
+    animation-duration: infinite;
+    animation-delay: 0s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    
+}
+
+#cara{
+    height: 100%;
+    width: 100%;
+    border-radius: 60%;
+}
+
+
+=======
+}
+>>>>>>> master

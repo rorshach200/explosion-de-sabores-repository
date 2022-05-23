@@ -1,0 +1,14 @@
+body{
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#fondo{
+    height: 100%;
+    width: 100%;
+}
