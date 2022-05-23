@@ -11,7 +11,6 @@ body{
 #fondo{
     height: 100%;
     width: 100%;
-<<<<<<< HEAD
     position: absolute;
 }
 
@@ -34,10 +33,10 @@ body{
     border-radius: 60%;
 
     animation-name: esmeralda;
-    animation-duration: infinite;
+    animation-duration: 3s;
     animation-delay: 0s;
-    animation-fill-mode: backwards;
-    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
     
 }
 
@@ -47,7 +46,17 @@ body{
     border-radius: 60%;
 }
 
+/* ANIMACIONES */
+@keyframes esmeralda{
+    0%{
+        top: 40%;
+    }
 
-=======
+    50%{
+        top: 30%;
+    }
+
+    100%{
+        top: 40%;
+    }
 }
->>>>>>> master
