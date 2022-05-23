@@ -19,6 +19,9 @@ body{
     height: 400px;
     width: 800px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: -40%;
     border-radius: 10%;
 }
@@ -45,6 +48,53 @@ body{
     width: 100%;
     border-radius: 60%;
 }
+
+/* COMIDA */
+#img1{
+    height: 20%;
+    width: 20%;
+}
+
+#img2{
+    height: 20%;
+    width: 20%;
+}
+
+#img3{
+    height: 20%;
+    width: 20%;
+}
+
+#img4{
+    height: 20%;
+    width: 20%;
+}
+
+#img5{
+    height: 20%;
+    width: 20%;
+}
+
+#img6{
+    height: 20%;
+    width: 20%;
+}
+
+#img7{
+    height: 20%;
+    width: 20%;
+}
+
+#img8{
+    height: 20%;
+    width: 20%;
+}
+
+#img9{
+    height: 20%;
+    width: 20%;
+}
+
 
 /* ANIMACIONES */
 @keyframes esmeralda{
