@@ -1,10 +1,21 @@
 // VARIABLES
-let comida1 = document.getElementById("comida1");
-let comida2 = document.getElementById("comida2");
-let comida3 = document.getElementById("comida3");
-let comida4 = document.getElementById("comida4");
-let comida5 = document.getElementById("comida5");
-let comida6 = document.getElementById("comida6");
-let comida7 = document.getElementById("comida7");
-let comida8 = document.getElementById("comida8");
-let comida9 = document.getElementById("comida9");
+let comida1 = document.getElementById("img1");
+let comida2 = document.getElementById("img2");
+let comida3 = document.getElementById("img3");
+let comida4 = document.getElementById("img4");
+let comida5 = document.getElementById("img5");
+let comida6 = document.getElementById("img6");
+let comida7 = document.getElementById("img7");
+let comida8 = document.getElementById("img8");
+let comida9 = document.getElementById("img9");
+let esmeralda = document.getElementById("esmeralda");
+
+
+
+
+// JQUERY
+$( function() {
+    $( "img1" ).draggable();
+  } );
+
+// FUNCIONES

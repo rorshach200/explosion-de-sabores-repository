@@ -18,23 +18,64 @@
 
         <div id="mesa">
             <h1>¡SACIA EL HAMBRE DE ESMERALDA!</h1>
-            <img id="img1" src="img/comida1.png" alt="error">
-            <img id="img2" src="img/comida2.png" alt="error">
-            <img id="img3" src="img/comida3.png" alt="error">
-            <img id="img4" src="img/comida4.png" alt="error">
-            <img id="img5" src="img/comida5.png" alt="error">
-            <img id="img6" src="img/comida6.png" alt="error">
-            <img id="img7" src="img/comida7.png" alt="error">
-            <img id="img8" src="img/comida8.png" alt="error">
-            <img id="img9" src="img/comida9.png" alt="error">
+
+            <div id="img1" class="draggable" draggable="true">
+                <img id="donut" src="img/comida1.png" alt="error">
+            </div>
+
+            <div id="img2" class="draggable" draggable="true">
+                <img id="perrito" src="img/comida2.png" alt="error">
+            </div>
+
+            <div id="img3" class="draggable" draggable="true">
+                <img id="caca" src="img/comida3.png" alt="error">
+            </div>
+
+            <div id="img4" class="draggable" draggable="true">
+                <img id="macaco" src="img/comida4.png" alt="error">
+            </div>
+
+            <div id="img5" class="draggable" draggable="true">
+                <img id="pollo" src="img/comida5.png" alt="error">
+            </div>
+
+            <div id="img6" class="draggable" draggable="true">
+                <img id="ensalada" src="img/comida6.png" alt="error">
+            </div>
+
+            <div id="img7" class="draggable" draggable="true">
+                <img id="cabeza" src="img/comida7.png" alt="error">
+            </div>
+
+            <div id="img8" class="draggable" draggable="true">
+                <img id="mosca" src="img/comida8.png" alt="error">
+            </div>
+
+            <div id="img9" class="draggable" draggable="true">
+                <img id="veneno" src="img/comida9.png" alt="error">
+            </div>
+            
         </div>
 
-        <div id="esmeralda">
+        <div class="dropzone" id="esmeralda">
             <img id="cara" src="img/esmeralda.jpg" alt="error">
         </div>
     
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="script.js"></script>
     </main>
 
+<script>
+
+    $(".draggable").draggable({
+        containment: "document"
+        
+    });
+
+    $(".dropzone").dropable()
+
+</script>
 </body>
 </html>
