@@ -60,6 +60,7 @@ h1{
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    z-index: 2;
     
 }
 
@@ -83,6 +84,7 @@ h1{
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    z-index: 3;
 }
 #donut{
     height: 100%;
@@ -101,6 +103,7 @@ h1{
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    z-index: 3;
 }
 #perrito{
     height: 100%;
@@ -119,6 +122,7 @@ h1{
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    z-index: 3;
 }
 #caca{
     height: 100%;
@@ -137,6 +141,7 @@ h1{
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    z-index: 3;
 }
 #macaco{
     height: 100%;
@@ -155,6 +160,7 @@ h1{
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    z-index: 3;
 }
 #ensalada{
     height: 100%;
@@ -173,6 +179,7 @@ h1{
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    z-index: 3;
 }
 #pollo{
     height: 100%;
@@ -189,6 +196,7 @@ h1{
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    z-index: 3;
 }
 #cabeza{
     height: 100%;
@@ -207,6 +215,7 @@ h1{
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    z-index: 3;
 }
 #mosca{
     height: 100%;
@@ -225,6 +234,7 @@ h1{
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    z-index: 3;
 }
 #veneno{
     height: 100%;

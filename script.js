@@ -14,8 +14,20 @@ let esmeralda = document.getElementById("esmeralda");
 
 
 // JQUERY
-$( function() {
-    $( "img1" ).draggable();
-  } );
+$(document).ready (function (){
+    
 
+
+    $(".draggable").draggable({
+        containment: "document",
+    
+    });
+
+    $( ".droppable" ).droppable({
+        accept:".draggable",
+        drop: function( ev, ui){
+        alert("Esmeralda se lo ha comido...");}
+    });
+
+});
 // FUNCIONES
